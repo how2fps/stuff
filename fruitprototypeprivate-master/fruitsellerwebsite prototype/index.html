@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c557c077fe.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Cantarell&family=Raleway&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>FruittyEllie</title>
+</head>
+
+<body>
+    <header>
+        <!--This logo will also act as a checkbox to see if the user wants to see sidenav-->
+        <nav><span class="logo" id="logo">FruittyEllie</span>
+
+            <!--<input type="checkbox" id="check">
+        <label for="check" class="burger">
+            <img src="icons/menu_white.svg" alt="">
+        </label>-->
+
+            <input type="checkbox" id="check">
+            <label for="check" class="burger">
+                <img src="icons/menu_black.svg" alt="">
+            </label>
+
+            <ul class="topnav">
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="right-icons">
+            <a href="#" class="shopping-cart"><img src="icons/supermarket.svg" alt="shopping-cart"></a>
+            <a href="#" class="login"><img src="icons/user.svg" alt="user"></a>
+        </div>
+    </header>
+
+    <section>
+        <div class="hero">
+            <img src="img/store.jpg" alt="">
+            <p class="headline">SG's best Wholesale Fruits Supplier!</p>
+        </div>
+    </section>
+
+    <div class="slider-woosh"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+        crossorigin="anonymous">
+        </script>
+    <!--<div class="slideshow-container">
+            <i class="fas fa-arrow-left" id="prevBtn"></i>
+            <i class="fas fa-arrow-right" id="nextBtn"></i>
+            <div class="slider-image">
+                
+                <img src="" id="lastClone" alt="">
+
+                <img src="img/apple.jpg" alt="">
+                <img src="img/banana.jpg" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" id="firstClone" alt="">
+            </div>
+        </div>-->
+
+
+
+    <main>
+        <div id="slider">
+            <div id="box">
+                <img src="img/apple.jpg" alt="">
+
+            </div>
+            <!--Buttons for controls-->
+            <button class="prev fas fa-arrow-left" onclick="prevImage()"></button>
+            <button class="next fas fa-arrow-right" onclick="nextImage()"></button>
+        </div>
+    </main>
+    <footer>
+        Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+            href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+    </footer>
+</body>
+<script src="main.js">
+</script>
+
+</html>
